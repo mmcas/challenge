@@ -1,0 +1,28 @@
+.sort {
+    background-color: white;
+    margin-top: 65px;
+    margin-bottom: 5px;
+    height: 40px;
+    box-shadow: inset 0 1px 0 #eee;
+    .sort-input {
+        padding-left: 40% ; 
+        padding-top: 0.5%;
+    }
+    select, input {
+        height: 30px;
+        color: #317dec;
+        background-color: white;
+        border: 1px solid #317dec;
+        padding: 3px;
+        outline: none;
+    }
+    select {
+        border-radius: 15px;
+    }
+    input {
+        border-radius: 5px;
+        &:hover {
+            background-color: #eee;    
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<%= render "shared/header"%>
+<div class="wrapper-content">
+    <div class="sort">
+        <%= render "shared/sorting"%>   
+    </div>
+    <div class="show-list">
+        <% @house_shows.each do |show| %>
+            <%= render "shared/show_card", show: show%>
+        <% end %>
+    </div>
+</div>

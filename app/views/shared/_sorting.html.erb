@@ -1,0 +1,6 @@
+<%= form_tag house_shows_path, method: :get do %>
+    <div class="sort-input">
+        <%= select_tag "sort", options_for_select([ "Rating", "Release date" ], params[:sort]),  include_blank: false %>
+        <%= submit_tag "Sort"%>
+    </div >
+<% end %>
